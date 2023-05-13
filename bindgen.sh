@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 exec bindgen \
     -o src/bindings.rs \
     --use-core \
