@@ -1504,8 +1504,8 @@ __jump_unwind (
 #pragma warning(disable:4164)   // disable C4164 warning so that apps that
                                 // build with /Od don't get weird errors !
 #ifdef _M_IX86
-#pragma function(_enable)
-#pragma function(_disable)
+// #pragma function(_enable)
+// #pragma function(_disable)
 #endif
 
 #pragma warning(default:4164)   // reenable C4164 warning

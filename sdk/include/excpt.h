@@ -130,7 +130,8 @@ _CRTIMP EXCEPTION_DISPOSITION __C_specific_handler (
 #define AbnormalTermination         _abnormal_termination
 #define abnormal_termination        _abnormal_termination
 
-unsigned long __cdecl _exception_code(void);
+// _exception_code is builtin on clang with -fms-extensions:
+// unsigned long __cdecl _exception_code(void);
 void *        __cdecl _exception_info(void);
 int           __cdecl _abnormal_termination(void);
 
