@@ -1,0 +1,5 @@
+[build]
+target = "i586-pc-windows-msvc"
+
+[target.i586-pc-windows-msvc]
+rustflags = ["-C", "panic=abort"]
