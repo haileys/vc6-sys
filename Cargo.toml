@@ -1,5 +1,5 @@
 [package]
-name = "win95-sdk"
+name = "vc6-sys"
 version = "0.1.0"
 edition = "2021"
 
