@@ -1,0 +1,6 @@
+[package]
+name = "win95-sdk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
