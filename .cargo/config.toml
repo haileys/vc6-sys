@@ -1,5 +1,8 @@
 [build]
 target = "i586-pc-windows-msvc"
 
+[unstable]
+build-std = ["core"]
+
 [target.i586-pc-windows-msvc]
 rustflags = ["-C", "panic=abort"]
