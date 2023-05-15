@@ -11,8 +11,9 @@ ar r sdk/lib/vc6-sys-extra.lib \
     VC98/CRT/SRC/Intel/St_lib/ULLREM.OBJ \
     VC98/CRT/SRC/Intel/St_lib/ULLDIV.OBJ \
     VC98/CRT/SRC/Intel/St_lib/CHKSTK.OBJ \
-    # VC98/CRT/SRC/Intel/St_lib/MEMCPY.OBJ \
-    # VC98/CRT/SRC/Intel/St_lib/MEMCMP.OBJ \
-    # VC98/CRT/SRC/Intel/St_lib/MEMCHR.OBJ \
-    # VC98/CRT/SRC/Intel/St_lib/MEMMOVE.OBJ \
-    # VC98/CRT/SRC/Intel/St_lib/MEMSET.OBJ \
+    VC98/CRT/SRC/Intel/St_lib/MEMCPY.OBJ \
+    VC98/CRT/SRC/Intel/St_lib/MEMCMP.OBJ \
+    VC98/CRT/SRC/Intel/St_lib/MEMCHR.OBJ \
+    VC98/CRT/SRC/Intel/St_lib/MEMMOVE.OBJ \
+    VC98/CRT/SRC/Intel/St_lib/MEMSET.OBJ \
+    VC98/CRT/SRC/Intel/St_lib/STRLEN.OBJ \
