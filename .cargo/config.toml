@@ -1,8 +1,8 @@
 [build]
-target = "i586-pc-windows-msvc"
+target = "i386-pc-win9x-lld.json"
 
 [unstable]
 build-std = ["core"]
 
-[target.i586-pc-windows-msvc]
+[target."i386-pc-win9x-lld.json"]
 rustflags = ["-C", "panic=abort"]
