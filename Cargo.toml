@@ -1,6 +1,15 @@
 [package]
 name = "vc6-sys"
 version = "0.1.0"
+description = "Rust bindings for Visual C++ 6 SDK"
 edition = "2021"
+repository = "https://github.com/haileys/vc6-sys"
+license = "MIT"
+
+include = [
+    "sdk",
+    "src",
+    "build.rs"
+]
 
 [dependencies]
