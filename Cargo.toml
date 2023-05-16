@@ -9,7 +9,8 @@ license = "MIT"
 include = [
     "sdk",
     "src",
-    "build.rs"
+    "build.rs",
+    "README.md",
 ]
 
 [dependencies]
